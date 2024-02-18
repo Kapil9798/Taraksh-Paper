@@ -1,0 +1,39 @@
+.containerrr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+    border: 1px solid #ccc; /* Optional: border for visualization */
+  }
+  
+  .roww {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .columnn {
+    margin: 5px; /* Adjust spacing between images */
+  }
+  @media screen and (max-width: 768px) {
+    .containerrr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+        border: 1px solid #ccc; /* Optional: border for visualization */
+      }
+      
+      .roww {
+        display: block;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .columnn {
+        margin: 5px; /* Adjust spacing between images */
+      }
+}
+  
